@@ -10,7 +10,7 @@ csv_file_path = r"https://github.com/Nadunimithya/Streamlit_demo/blob/main/us-po
 data = pd.read_csv(csv_file_path)
 
 # Load Shapefile Data
-shapefile_path = r"G:\Naduni\Streamlit dash\USA.shp"
+shapefile_path = r"https://github.com/Nadunimithya/Streamlit_demo/blob/main/USA_names.shp"
 gdf = gpd.read_file(shapefile_path)
 
 # Convert columns to strings for consistent handling
